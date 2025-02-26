@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #E63820;
+}
+#timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.timer__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    gap:.2rem;
+}
+.timer__container > *{
+    font-weight: 600;
+    color: white;
+    font-size: 11rem;
+    letter-spacing: 2px;
+}
+.control-btn{
+    border:0;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.test-svg{
+    font-size: 7rem;
+    color:white;
+}
+.material-icons{
+    font-size: 60px;
+}
+.mode__btn{
+    background: transparent;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.modes{
+    position: absolute;
+    top:-30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+.active{
+    background-color: whitesmoke;
+    color:#E63820;
+
+}
